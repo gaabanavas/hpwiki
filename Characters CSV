@@ -1,0 +1,3 @@
+import csv
+with open("Convicts scraping.csv", "w")as file:
+    file.write(Harry Potter Characters)
