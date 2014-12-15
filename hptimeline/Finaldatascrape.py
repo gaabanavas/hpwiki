@@ -1,47 +1,4 @@
-##
-##import requests
-## 
-## 
-##r = requests.get("http://www.pratt.edu")
-## 
-## 
-##print("The request code was:",r.status_code)
-##
-##print("Here is the text of the webpage:",r.text)
-\
-##import requests
-## 
-###as per the DPLA website directions its asks us for get a key for working with the API
-##anything = requests.post('http://api.dp.la/v2/api_key/gabanava@pratt.edu')
-## 
-##print("The request code was:",anything.status_code)
-## 
-##print("The resultvwas:",anything.text)
-##
-##API key: 0baaae9a32166deabaa49bfdc137e384
 
-
-##import requests, json
-##
-##
-##
-###Ask for a search results for kittens
-##r = requests.get('http://api.dp.la/v2/items?q=kittens&api_key=0baaae9a32166deabaa49bfdc137e384')
-## 
-##print(r.status_code)
-## 
-##print(r.text)
-## 
-###trun it into a python dictonary
-##
-##
-## 
-##data = json.loads(r.text)
-## 
-##print(data)
-#anything = requests.post('http://api.dp.la/v2/api_key/gabanava@pratt.edu')
-#Ask for a search results for kittens API dictionary
-#trun it into a python dictonary
 
 
 
